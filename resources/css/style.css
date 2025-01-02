@@ -1,0 +1,128 @@
+/* General Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #005f73; /* Dark teal */
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #0a9396; /* Teal */
+    padding: 0.5rem 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+/* Destinations Section */
+#destinations {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#destinations h2 {
+    color: #005f73;
+    margin-bottom: 1rem;
+}
+
+#destinations video {
+    margin: 1rem auto;
+    border: 2px solid #005f73;
+    border-radius: 5px;
+}
+
+#destinations p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+#destinations img {
+    margin-top: 1.5rem;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* About Section */
+#about {
+    background-color: #e9d8a6; /* Sand color */
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#about h2 {
+    color: #9b2226;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    background-color: #94d2bd; /* Light teal */
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+#contact h2 {
+    color: #005f73;
+    margin-bottom: 1rem;
+}
+
+#contact img {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+#contact p {
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

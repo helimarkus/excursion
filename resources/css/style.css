@@ -9,25 +9,31 @@ body, h1, h2, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
     margin: 0;
 }
 
 /* Header */
 header {
-    background-color: #005f73; /* Dark teal */
+    background-color: #003049; /* Dark blue */
     color: white;
-    padding: 1rem 2rem;
+    padding: 1.5rem;
     text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 /* Navigation */
 nav ul {
     display: flex;
     justify-content: center;
-    background-color: #0a9396; /* Teal */
-    padding: 0.5rem 0;
+    background-color: #d62828; /* Red */
+    padding: 0.8rem 0;
     list-style: none;
 }
 
@@ -38,16 +44,20 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.1rem;
     font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #f77f00; /* Bright orange */
 }
 
 /* Main Content */
 main {
-    padding: 2rem;
+    padding: 2rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Destinations Section */
@@ -57,72 +67,88 @@ main {
 }
 
 #destinations h2 {
-    color: #005f73;
-    margin-bottom: 1rem;
+    color: #003049;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 #destinations video {
     margin: 1rem auto;
-    border: 2px solid #005f73;
-    border-radius: 5px;
+    border: 2px solid #003049;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
 }
 
 #destinations p {
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
 }
 
 #destinations img {
     margin-top: 1.5rem;
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* About Section */
 #about {
-    background-color: #e9d8a6; /* Sand color */
+    background-color: #fcbf49; /* Golden Yellow */
     padding: 2rem;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
     margin-bottom: 3rem;
 }
 
 #about h2 {
-    color: #9b2226;
+    color: #003049;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 #about p {
     font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
 }
 
 /* Contact Section */
 #contact {
     text-align: center;
-    background-color: #94d2bd; /* Light teal */
+    background-color: #a2d2ff; /* Light Blue */
     padding: 2rem;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 #contact h2 {
-    color: #005f73;
+    color: #003049;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 #contact img {
     display: block;
-    margin: 0.5rem auto;
+    margin: 0.5rem auto 1rem;
+    width: 50px;
 }
 
 #contact p {
     font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
 }
 
 /* Footer */
 footer {
-    background-color: #005f73;
+    background-color: #003049;
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1.2rem 0;
     margin-top: 2rem;
+    font-size: 0.9rem;
 }
+
+  
